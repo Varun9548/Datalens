@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Production build artifacts (can be rebuilt anytime with npm run build)
+client/dist/
+
+# Environment files
+.env
+server/.env
+*.env.local
+
+# Databases and storage
+*.db
+*.sqlite
+*.sqlite3
+datalens.db
+server/datalens.db
+server/uploads/*
+!server/uploads/.gitkeep
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
