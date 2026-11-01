@@ -1,6 +1,8 @@
 # 📊 DataLens — Upload CSV → Interactive Analytics
 
-> **100% Free & Open-Source**: Runs entirely on your local machine with zero external cloud dependencies, zero subscription costs, and zero paid APIs.
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Varun9548/Datalens)
+
+> **100% Free & Open-Source**: Runs entirely on your local machine with zero external cloud dependencies, zero subscription costs, and zero paid APIs. Can also be deployed online to Render with 1 click.
 
 DataLens is a full-stack automated data science and interactive analytics platform. Upload any CSV file (or test with the bundled sample dataset) to instantly generate executive KPI cards, descriptive statistical breakdowns, interactive data visualizations, and publication-ready PDF/CSV reports.
 
