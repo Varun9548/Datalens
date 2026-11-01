@@ -2,18 +2,31 @@
   "name": "datalens",
   "version": "1.0.0",
   "description": "DataLens — Upload CSV → Interactive Analytics Platform (100% Free & Open Source)",
+  "engines": {
+    "node": ">=20.0.0 <23.0.0"
+  },
   "scripts": {
     "start": "node server/src/index.js",
     "install:server": "cd server && npm install",
     "install:client": "cd client && npm install",
     "install:all": "npm run install:server && npm run install:client",
     "build:client": "cd client && npm run build",
-    "build": "npm run install:all && npm run build:client",
+    "build": "cd server && npm install",
+    "build:all": "cd server && npm install && cd ../client && npm install && npm run build",
     "dev:server": "cd server && npm run dev",
     "dev:client": "cd client && npm run dev",
     "test:api": "cd server && node test_api.js"
   },
-  "keywords": ["csv", "analytics", "react", "nodejs", "express", "postgresql", "sqlite", "charts"],
+  "keywords": [
+    "csv",
+    "analytics",
+    "react",
+    "nodejs",
+    "express",
+    "postgresql",
+    "sqlite",
+    "charts"
+  ],
   "author": "DataLens Team",
   "license": "MIT"
 }

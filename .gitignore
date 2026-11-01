@@ -3,9 +3,6 @@ node_modules/
 client/node_modules/
 server/node_modules/
 
-# Production build artifacts (can be rebuilt anytime with npm run build)
-client/dist/
-
 # Environment files
 .env
 server/.env
